@@ -36,12 +36,12 @@ npm run serve
 
 5. Open your web browser and navigate to `http://localhost:8080` to see the app in action.
 
-# How to Use
+# 📖 How to Use
 
 The Currency Converter app allows you to convert different currencies. 
 The main page (`App.vue`) displays multiple `ConverterComponent` instances, each for a different currency conversion pair.
 
-# 📖 ConverterComponent
+# 🔃 ConverterComponent
 
 The `ConverterComponent` is a reusable component responsible for converting currencies. 
 It takes two props: `currencyA` and `currencyB`, which represent the source and target currencies, respectively.
