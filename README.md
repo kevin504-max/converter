@@ -1,14 +1,14 @@
-# Currency Converter App
+# 💵 Currency Converter App
 
 This is a simple Currency Converter application built using Vue.js. The app allows you to convert currencies using real-time exchange rates fetched from a public API.
 
-## Prerequisites
+## 📌Prerequisites
 
 To run this application, you'll need the following:
 
 - Node.js (with npm)
 
-## Setup
+## ⚙️ Setup
 
 1. Clone the repository:
 
@@ -41,7 +41,7 @@ npm run serve
 The Currency Converter app allows you to convert different currencies. 
 The main page (`App.vue`) displays multiple `ConverterComponent` instances, each for a different currency conversion pair.
 
-# ConverterComponent
+# 📖 ConverterComponent
 
 The `ConverterComponent` is a reusable component responsible for converting currencies. 
 It takes two props: `currencyA` and `currencyB`, which represent the source and target currencies, respectively.
@@ -52,11 +52,11 @@ It takes two props: `currencyA` and `currencyB`, which represent the source and 
 
 3. The converted amount will be displayed below the button.
 
-# Technologies Used
+# 🎲 Technologies Used
 
 * Vue.js
 * Fetch API 
 
-# Acknowledgements
+# 🧠 Acknowledgements
 
 This project was created as a learning exercise and is meant to demonstrate basic usage of Vue.js and making API calls using the Fetch API.
